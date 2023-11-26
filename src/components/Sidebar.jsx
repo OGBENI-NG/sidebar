@@ -71,10 +71,10 @@ export default function Sidebar({logo, handleChange, inputValue,
                         
                         {toggle && <h1 className='text-xl'>DeoluDH</h1>}
                   </div>
-                  <div className={` absolute transition-[.3s] cursor-pointer rounded-full text-4xl top-0 -right-9
+                  <div className={` absolute transition-[.3s] cursor-pointer rounded-full text-3xl top-[4px] -right-9 
                         ${theme === "light" 
-                              ? "text-darkColor bg-lightColor hover:bg-lightBgColor"
-                              : "text-lightColor hover:bg-toggleBgColor bg-darkColor"
+                              ? "text-darkColor bg-lightColor hover:bg-lightBgColor border-[1px] border-borderLgtColor"
+                              : "text-lightColor hover:bg-toggleBgColor bg-darkColor border-[1px] border-borderColor"
                         } 
                          ${toggle ? "rotate-180" : "-rotate-0"}
                          `}
