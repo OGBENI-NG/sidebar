@@ -34,7 +34,7 @@ export default function Sidebar({logo, handleChange, inputValue,
                   cursor-pointer text-[12px]`}
             >
                   <li className={`${toggle ? "text-lg" : "text-2xl"}`}>{link.icon}</li>
-                 { toggle && <li><a href="#">{link.name}</a></li>}
+                 {toggle && <li><a href="#">{link.name}</a></li>}
             </ul>
       ))
       const secondLinks = links.slice(2, 6)
@@ -43,7 +43,7 @@ export default function Sidebar({logo, handleChange, inputValue,
                    ${ theme === "light" ? "hover:bg-lightBgColor" : "hover:bg-toggleBgColor"} cursor-pointer text-[12px]`}
             >
                   <li className={`${toggle ? "text-lg" : "text-2xl"}`}>{link.icon}</li>
-                 { toggle && <li><a href="#">{link.name}</a></li>}
+                 {toggle && <li><a href="#">{link.name}</a></li>}
 
             </ul>
       ))
@@ -53,7 +53,7 @@ export default function Sidebar({logo, handleChange, inputValue,
                    ${ theme === "light" ? "hover:bg-lightBgColor" : "hover:bg-toggleBgColor"} cursor-pointer text-[12px]`}
             >
                   <li className={`${toggle ? "text-lg" : "text-2xl"}`}>{link.icon}</li>
-                 { toggle && <li><a href="#">{link.name}</a></li>}
+                 {toggle && <li><a href="#">{link.name}</a></li>}
 
             </ul>
       ))
@@ -84,7 +84,8 @@ export default function Sidebar({logo, handleChange, inputValue,
                   </div>
             </div>
             <div className='relative mt-6 '>
-                 <div className={`text-darkColor text-2xl absolute w-2 h-2 ${toggle ? "ml-2" : "ml-[15px]"} top-[6px] transition-all`}>
+                 <div className={`text-darkColor text-2xl absolute w-2 h-2 
+                        ${toggle ? "ml-2" : "ml-[15px]"} top-[6px] transition-all`}>
                   <GoSearch/>
                  </div>
                   <input 
@@ -150,7 +151,7 @@ export default function Sidebar({logo, handleChange, inputValue,
                   
             </div>
             <div className={`flex items-center mt-4 gap-2`}>
-                  <div className={`${!toggle && "h-10 w-10 ml-[3px]"} h-8 w-8 border-[2px] border-green-600 rounded-full`}>
+                  <div className={`${!toggle && "h-10 w-10 ml-[7px]"} h-8 w-8 border-[2px] border-green-600 rounded-full`}>
                         <img className='w-full h-full object-cover' src={user} alt="user" />
                   </div>
                   {toggle &&  <div className='text-sm'>

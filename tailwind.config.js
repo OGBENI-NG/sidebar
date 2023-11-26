@@ -8,16 +8,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgColor: "#111613",
+        bgColor: "#0d1826",
         bgWhtColor: "#e2e2e2",
-        darkColor: '#060D38',
+        darkColor: '#03081b',
         lightColor: '#FEFFFE',
         lightHvColor: '#A9AFFF',
         logoColor: '#1b217942',
         borderColor: '#ffffff18',
         borderLgtColor: 'rgba(221, 221, 221, 0.70)',
-        toggleBgColor: 'rgba(83, 91, 189, 0.30)',
-        lightBgColor: '#949a9fa0',
+        toggleBgColor: '#475363',
+        lightBgColor: '#e9eff5',
       },
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
