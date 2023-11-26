@@ -150,13 +150,13 @@ export default function Sidebar({logo, handleChange, inputValue,
                   )}
                   
             </div>
-            <div className={`flex items-center mt-4 gap-2`}>
+            <div className={`flex items-center mt-6 gap-2`}>
                   <div className={`${!toggle && "h-10 w-10 ml-[7px]"} h-8 w-8 border-[2px] border-green-600 rounded-full`}>
                         <img className='w-full h-full object-cover' src={user} alt="user" />
                   </div>
                   {toggle &&  <div className='text-sm'>
                         <h2 className='font-medium'>Omo Oba</h2>
-                        <p className='text-[10px] font-normal'>web-developer</p>
+                        <p className='text-[12px] font-normal'>web-developer</p>
                   </div>}
                   {toggle && <div className='ml-auto text-xl cursor-pointer'>
                         <IoLogOutOutline/>
